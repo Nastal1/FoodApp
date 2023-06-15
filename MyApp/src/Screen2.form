@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Screen2">
+  <grid id="27dc6" binding="jpanelMain" layout-manager="GridLayoutManager" row-count="16" column-count="7" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="692" height="722"/>
+    </constraints>
+    <properties>
+      <background color="-5664642"/>
+      <foreground color="-5520214"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="9b943" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" style="1"/>
+          <foreground color="-5520214"/>
+          <text value="Total number of surveys:"/>
+        </properties>
+      </component>
+      <component id="8875e" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" style="1"/>
+          <foreground color="-5520214"/>
+          <text value="Average age:"/>
+        </properties>
+      </component>
+      <component id="7695f" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" style="1"/>
+          <foreground color="-5520214"/>
+          <text value="People who like pizza"/>
+        </properties>
+      </component>
+      <component id="53fb7" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" style="1"/>
+          <foreground color="-5520214"/>
+          <text value="Oldest person who participated in survey"/>
+        </properties>
+      </component>
+      <component id="e3507" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" style="1"/>
+          <foreground color="-5520214"/>
+          <text value="Youngest person who participated in survey"/>
+        </properties>
+      </component>
+      <component id="33cfd" class="javax.swing.JTextField" binding="txtAa">
+        <constraints>
+          <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+        </properties>
+      </component>
+      <component id="c10f9" class="javax.swing.JTextField" binding="txtOp">
+        <constraints>
+          <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+        </properties>
+      </component>
+      <component id="59977" class="javax.swing.JTextField" binding="txtYp">
+        <constraints>
+          <grid row="5" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+        </properties>
+      </component>
+      <component id="2b139" class="javax.swing.JTextField" binding="txtPpz">
+        <constraints>
+          <grid row="6" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <hspacer id="c141f">
+        <constraints>
+          <grid row="2" column="5" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="d3b0a" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="11" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" style="1"/>
+          <foreground color="-5520214"/>
+          <text value="People like to watch movies"/>
+        </properties>
+      </component>
+      <component id="3c94d" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="10" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" style="1"/>
+          <foreground color="-5520214"/>
+          <text value="People like to eat out"/>
+        </properties>
+      </component>
+      <component id="95040" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="9" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" style="1"/>
+          <foreground color="-5520214"/>
+          <text value="People who like to listen to the radio"/>
+        </properties>
+      </component>
+      <component id="8e021" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="8" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" style="1"/>
+          <foreground color="-5520214"/>
+          <text value="People who like pap and wors"/>
+        </properties>
+      </component>
+      <component id="8a075" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" style="1"/>
+          <foreground color="-5520214"/>
+          <text value="People who like pasta"/>
+        </properties>
+      </component>
+      <component id="8c47b" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="13" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" style="1"/>
+          <foreground color="-5520214"/>
+          <text value="People like to listen to the radio"/>
+        </properties>
+      </component>
+      <component id="ca3be" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="12" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" style="1"/>
+          <foreground color="-5520214"/>
+          <text value="People like watch TV"/>
+        </properties>
+      </component>
+      <component id="9dca2" class="javax.swing.JTextField" binding="txtPpa">
+        <constraints>
+          <grid row="7" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+        </properties>
+      </component>
+      <component id="28fcb" class="javax.swing.JTextField" binding="txtPnw">
+        <constraints>
+          <grid row="8" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+        </properties>
+      </component>
+      <component id="78f32" class="javax.swing.JTextField" binding="txtPr">
+        <constraints>
+          <grid row="9" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+        </properties>
+      </component>
+      <component id="4651e" class="javax.swing.JTextField" binding="txtPm">
+        <constraints>
+          <grid row="10" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+        </properties>
+      </component>
+      <component id="b38fb" class="javax.swing.JTextField" binding="txtWm">
+        <constraints>
+          <grid row="11" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+        </properties>
+      </component>
+      <component id="a5bed" class="javax.swing.JTextField" binding="txtWt">
+        <constraints>
+          <grid row="12" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="69f0e" class="javax.swing.JTextField" binding="txtLr">
+        <constraints>
+          <grid row="13" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+        </properties>
+      </component>
+      <component id="989ca" class="javax.swing.JButton" binding="btnOk">
+        <constraints>
+          <grid row="15" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-5664642"/>
+          <contentAreaFilled value="false"/>
+          <font name="Courier New" style="1"/>
+          <foreground color="-5520214"/>
+          <text value="Ok"/>
+        </properties>
+      </component>
+      <hspacer id="7abf4">
+        <constraints>
+          <grid row="15" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="58749">
+        <constraints>
+          <grid row="15" column="4" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <vspacer id="d71f8">
+        <constraints>
+          <grid row="14" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <hspacer id="661c1">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="12739">
+        <constraints>
+          <grid row="3" column="6" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="37763">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="9ccc5" class="javax.swing.JTextField" binding="txtS">
+        <constraints>
+          <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+        </properties>
+      </component>
+      <vspacer id="5dde9">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="ab0b5">
+        <constraints>
+          <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="21204">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+    </children>
+  </grid>
+</form>

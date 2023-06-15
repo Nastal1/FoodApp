@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="WelcomeScreen">
+  <grid id="27dc6" binding="jpanelMain" layout-manager="GridLayoutManager" row-count="4" column-count="7" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="501" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-5664642"/>
+    </properties>
+    <border type="none" title=""/>
+    <children>
+      <grid id="c8233" layout-manager="GridLayoutManager" row-count="4" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="4" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-5520214"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="c22eb" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Courier New" size="20" style="1"/>
+              <foreground color="-5664642"/>
+              <text value="To our survey"/>
+            </properties>
+          </component>
+          <component id="64ad8" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Courier New" size="20" style="1"/>
+              <foreground color="-5664642"/>
+              <text value="Welcome"/>
+            </properties>
+          </component>
+          <vspacer id="87ada">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <vspacer id="babdd">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+        </children>
+      </grid>
+      <hspacer id="45e42">
+        <constraints>
+          <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="64ee9">
+        <constraints>
+          <grid row="1" column="6" row-span="3" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="4f123" class="javax.swing.JButton" binding="btnfillOurSurveyButton">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-5664642"/>
+          <contentAreaFilled value="false"/>
+          <foreground color="-5520214"/>
+          <text value="Fill Our Survey"/>
+        </properties>
+      </component>
+      <hspacer id="433ea">
+        <constraints>
+          <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <vspacer id="d252d">
+        <constraints>
+          <grid row="2" column="1" row-span="2" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="9cc01" class="javax.swing.JButton" binding="btnViewSurvey">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-5664642"/>
+          <contentAreaFilled value="false"/>
+          <foreground color="-5520214"/>
+          <text value="View Survey Results"/>
+        </properties>
+      </component>
+      <hspacer id="eacce">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="15fe0">
+        <constraints>
+          <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+    </children>
+  </grid>
+</form>
